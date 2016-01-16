@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B15048311C4AC2A0007112D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15048301C4AC2A0007112D7 /* AppDelegate.swift */; };
+		B15048331C4AC2A0007112D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15048321C4AC2A0007112D7 /* ViewController.swift */; };
+		B15048361C4AC2A0007112D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15048341C4AC2A0007112D7 /* Main.storyboard */; };
+		B15048381C4AC2A0007112D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15048371C4AC2A0007112D7 /* Assets.xcassets */; };
+		B150483B1C4AC2A0007112D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15048391C4AC2A0007112D7 /* LaunchScreen.storyboard */; };
+		B15048461C4AC2A0007112D7 /* MoodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15048451C4AC2A0007112D7 /* MoodyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B15048421C4AC2A0007112D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B15048251C4AC2A0007112D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B150482C1C4AC2A0007112D7;
+			remoteInfo = Moody;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B150482D1C4AC2A0007112D7 /* Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15048301C4AC2A0007112D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B15048321C4AC2A0007112D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B15048351C4AC2A0007112D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B15048371C4AC2A0007112D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B150483A1C4AC2A0007112D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B150483C1C4AC2A0007112D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15048411C4AC2A0007112D7 /* MoodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15048451C4AC2A0007112D7 /* MoodyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyTests.swift; sourceTree = "<group>"; };
+		B15048471C4AC2A0007112D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B150482A1C4AC2A0007112D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B150483E1C4AC2A0007112D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B15048241C4AC2A0007112D7 = {
+			isa = PBXGroup;
+			children = (
+				B150482F1C4AC2A0007112D7 /* Moody */,
+				B15048441C4AC2A0007112D7 /* MoodyTests */,
+				B150482E1C4AC2A0007112D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B150482E1C4AC2A0007112D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B150482D1C4AC2A0007112D7 /* Moody.app */,
+				B15048411C4AC2A0007112D7 /* MoodyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B150482F1C4AC2A0007112D7 /* Moody */ = {
+			isa = PBXGroup;
+			children = (
+				B15048301C4AC2A0007112D7 /* AppDelegate.swift */,
+				B15048321C4AC2A0007112D7 /* ViewController.swift */,
+				B15048341C4AC2A0007112D7 /* Main.storyboard */,
+				B15048371C4AC2A0007112D7 /* Assets.xcassets */,
+				B15048391C4AC2A0007112D7 /* LaunchScreen.storyboard */,
+				B150483C1C4AC2A0007112D7 /* Info.plist */,
+			);
+			path = Moody;
+			sourceTree = "<group>";
+		};
+		B15048441C4AC2A0007112D7 /* MoodyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B15048451C4AC2A0007112D7 /* MoodyTests.swift */,
+				B15048471C4AC2A0007112D7 /* Info.plist */,
+			);
+			path = MoodyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B150482C1C4AC2A0007112D7 /* Moody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B150484A1C4AC2A0007112D7 /* Build configuration list for PBXNativeTarget "Moody" */;
+			buildPhases = (
+				B15048291C4AC2A0007112D7 /* Sources */,
+				B150482A1C4AC2A0007112D7 /* Frameworks */,
+				B150482B1C4AC2A0007112D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moody;
+			productName = Moody;
+			productReference = B150482D1C4AC2A0007112D7 /* Moody.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B15048401C4AC2A0007112D7 /* MoodyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B150484D1C4AC2A0007112D7 /* Build configuration list for PBXNativeTarget "MoodyTests" */;
+			buildPhases = (
+				B150483D1C4AC2A0007112D7 /* Sources */,
+				B150483E1C4AC2A0007112D7 /* Frameworks */,
+				B150483F1C4AC2A0007112D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15048431C4AC2A0007112D7 /* PBXTargetDependency */,
+			);
+			name = MoodyTests;
+			productName = MoodyTests;
+			productReference = B15048411C4AC2A0007112D7 /* MoodyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B15048251C4AC2A0007112D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nate Armstrong";
+				TargetAttributes = {
+					B150482C1C4AC2A0007112D7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B15048401C4AC2A0007112D7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B150482C1C4AC2A0007112D7;
+					};
+				};
+			};
+			buildConfigurationList = B15048281C4AC2A0007112D7 /* Build configuration list for PBXProject "Moody" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B15048241C4AC2A0007112D7;
+			productRefGroup = B150482E1C4AC2A0007112D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B150482C1C4AC2A0007112D7 /* Moody */,
+				B15048401C4AC2A0007112D7 /* MoodyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B150482B1C4AC2A0007112D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B150483B1C4AC2A0007112D7 /* LaunchScreen.storyboard in Resources */,
+				B15048381C4AC2A0007112D7 /* Assets.xcassets in Resources */,
+				B15048361C4AC2A0007112D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B150483F1C4AC2A0007112D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B15048291C4AC2A0007112D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15048331C4AC2A0007112D7 /* ViewController.swift in Sources */,
+				B15048311C4AC2A0007112D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B150483D1C4AC2A0007112D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15048461C4AC2A0007112D7 /* MoodyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B15048431C4AC2A0007112D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B150482C1C4AC2A0007112D7 /* Moody */;
+			targetProxy = B15048421C4AC2A0007112D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B15048341C4AC2A0007112D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15048351C4AC2A0007112D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B15048391C4AC2A0007112D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B150483A1C4AC2A0007112D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B15048481C4AC2A0007112D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B15048491C4AC2A0007112D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B150484B1C4AC2A0007112D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongnate.Moody;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B150484C1C4AC2A0007112D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongnate.Moody;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B150484E1C4AC2A0007112D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoodyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongnate.MoodyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moody.app/Moody";
+			};
+			name = Debug;
+		};
+		B150484F1C4AC2A0007112D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoodyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongnate.MoodyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moody.app/Moody";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B15048281C4AC2A0007112D7 /* Build configuration list for PBXProject "Moody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15048481C4AC2A0007112D7 /* Debug */,
+				B15048491C4AC2A0007112D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B150484A1C4AC2A0007112D7 /* Build configuration list for PBXNativeTarget "Moody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B150484B1C4AC2A0007112D7 /* Debug */,
+				B150484C1C4AC2A0007112D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B150484D1C4AC2A0007112D7 /* Build configuration list for PBXNativeTarget "MoodyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B150484E1C4AC2A0007112D7 /* Debug */,
+				B150484F1C4AC2A0007112D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B15048251C4AC2A0007112D7 /* Project object */;
+}
